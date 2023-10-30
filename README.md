@@ -1,3 +1,10 @@
+<p align="center">
+    <a style="text-decoration:none !important;" href="https://docs.python.org/3.12/" alt="Python3.12"> <img src="https://img.shields.io/badge/python-3.12-blue.svg" /> </a>
+    <a style="text-decoration:none !important;" href="link to paper" alt="arXiv"> <img src="https://img.shields.io/badge/paper-AIIM-red" /> </a>
+    <a style="text-decoration:none !important;" href="https://docs.conda.io/en/latest/miniconda.html" alt="package management"> <img src="https://img.shields.io/badge/conda-env-green" /> </a>
+    <a style="text-decoration:none !important;" href="https://opensource.org/licenses/MIT" alt="License"> <img src="https://img.shields.io/badge/license-MIT-purple.svg" /> </a>
+</p>
+
 # Guideline-informed reinforcement learning for mechanical ventilation in critical care
 
 
@@ -13,7 +20,7 @@
 ```
 
 ## Overview
-This repository contains all code associated with the paper. The data needs to be accessed separately. For access to the data, we refer to the MIMIC [website](https://mimic-mit-edu.vu-nl.idm.oclc.org/docs/gettingstarted/).
+This repository contains only code associated with the paper. The data needs to be accessed separately. For access to the data, we refer to the MIMIC [website](https://mimic-mit-edu.vu-nl.idm.oclc.org/docs/gettingstarted/).
 
 To reproduce the results, follow these high-level steps which are described in more detail below:
 1. getting started
@@ -82,6 +89,8 @@ set search_path to mimiciii, public;
 \i postgres-make-concepts.sql
 ```
 Deriving the MIMIC concepts may again take a significant amount of time, but not as long as building MIMIC.
+
+Finally, create a Python3 virtual environment using [pyenv](https://virtualenv.pypa.io/en/latest/user_guide.html), [conda](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html) or your own favourite tool and install the dependencies in ``requirements.txt``.
 
 ## 2. Patient data selection
 Once you have built MIMIC and derived the concepts you can run the scripts in the `sql` directory of the repository root to build a CSV of trajectory data, see `sql/README.md`.
