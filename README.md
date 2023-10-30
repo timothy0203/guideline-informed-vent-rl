@@ -1,9 +1,7 @@
-<p align="center">
-    <a style="text-decoration:none !important;" href="https://docs.python.org/3.12/" alt="Python3.12"> <img src="https://img.shields.io/badge/python-3.12-blue.svg" /> </a>
-    <a style="text-decoration:none !important;" href="link to paper" alt="arXiv"> <img src="https://img.shields.io/badge/paper-AIIM-red" /> </a>
-    <a style="text-decoration:none !important;" href="https://docs.conda.io/en/latest/miniconda.html" alt="package management"> <img src="https://img.shields.io/badge/conda-env-green" /> </a>
-    <a style="text-decoration:none !important;" href="https://opensource.org/licenses/MIT" alt="License"> <img src="https://img.shields.io/badge/license-MIT-purple.svg" /> </a>
-</p>
+<a style="text-decoration:none !important;" href="https://docs.python.org/3.12/" alt="Python3.12"> <img src="https://img.shields.io/badge/python-3.12-blue.svg" /> </a>
+<a style="text-decoration:none !important;" href="link to paper" alt="arXiv"> <img src="https://img.shields.io/badge/paper-AIIM-red" /> </a>
+<a style="text-decoration:none !important;" href="https://docs.conda.io/en/latest/miniconda.html" alt="package management"> <img src="https://img.shields.io/badge/conda-env-green" /> </a>
+<a style="text-decoration:none !important;" href="https://opensource.org/licenses/MIT" alt="License"> <img src="https://img.shields.io/badge/license-MIT-purple.svg" /> </a>
 
 # Guideline-informed reinforcement learning for mechanical ventilation in critical care
 
@@ -134,8 +132,8 @@ To aggregate all results and generate plots, use the notebook ``scripts/ope-visu
 To investigate the policies run ``scripts/Qualitative analysis.ipynb``.
 
 # FAQ
-**Q**: *Why is the `mimic-data` directory empty?*
+**Q**: *Why is the `mimic-data` directory empty?*  
 **A**: This repository does not come with data, see [Getting started](#1.-Getting-started) to learn about access MIMIC.
 
-**Q**: *Why is the `mimic-code` directory empty?*
+**Q**: *Why is the `mimic-code` directory empty?*  
 **A**: You need to run `git submodule update` in the root directory of this repository to fetch the files in the `mimic-code` directory.
