@@ -1,0 +1,3 @@
+[submodule "mimic-code"]
+	path = mimic-code
+	url = git@github.com:MIT-LCP/mimic-code.git
