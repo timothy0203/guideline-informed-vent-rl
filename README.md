@@ -7,7 +7,7 @@
 
 
 ## Paper
-[Guideline informed reinforcement learning for mechanical ventilation in crticial care](https://link-to-paper.org)
+[Guideline informed reinforcement learning for mechanical ventilation in crticial care](https://doi.org/10.1016/j.artmed.2023.102742)
 ```
 @article{den2022guideline,
   title={Guideline-informed reinforcement learning for mechanical ventilation in critical care},
