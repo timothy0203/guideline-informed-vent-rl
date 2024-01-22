@@ -9,11 +9,14 @@
 ## Paper
 [Guideline informed reinforcement learning for mechanical ventilation in crticial care](https://doi.org/10.1016/j.artmed.2023.102742)
 ```
-@article{den2022guideline,
+@article{den2024guideline,
   title={Guideline-informed reinforcement learning for mechanical ventilation in critical care},
-  author={den Hengst, F. and Otten, M. and Elbers, P. and Fran{\c{c}}ois-Lavet, V. and Hoogendoorn, M. and van Harmelen, F.},
-  journal={Artificial Intelligence In Medicine},
-  year={2023},
+  author={den Hengst, Floris and Otten, Martijn and Elbers, Paul and van Harmelen, Frank and Fran{\c{c}}ois-Lavet, Vincent and Hoogendoorn, Mark},
+  journal={Artificial Intelligence in Medicine},
+  volume={147},
+  pages={102742},
+  year={2024},
+  publisher={Elsevier}
 }
 ```
 
