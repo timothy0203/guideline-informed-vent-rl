@@ -1,5 +1,5 @@
 <a style="text-decoration:none !important;" href="https://docs.python.org/3.12/" alt="Python3.12"><img src="https://img.shields.io/badge/python-3.12-blue.svg" /></a>
-<a style="text-decoration:none !important;" href="link to paper" alt="arXiv"><img src="https://img.shields.io/badge/paper-AIIM-red" /></a>
+<a style="text-decoration:none !important;" href="link to paper" alt="arXiv"><img src="https://img.shields.io/badge/paper-AIIM-red" />https://doi.org/10.1016/j.artmed.2023.102742</a>
 <a style="text-decoration:none !important;" href="https://docs.conda.io/en/latest/miniconda.html" alt="package management"><img src="https://img.shields.io/badge/conda-env-green" /></a>
 <a style="text-decoration:none !important;" href="https://opensource.org/licenses/MIT" alt="License"><img src="https://img.shields.io/badge/license-MIT-purple.svg" /></a>
 
