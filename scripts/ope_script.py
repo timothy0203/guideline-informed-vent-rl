@@ -169,7 +169,8 @@ if train_test == 'test':
         (test_set, sm_unsafe, behavior_policy, 'test', 'softmax', shaped, shaping, shaping_scalar, 'unsafe', unsafety_prob, seed),
     ]
 else:
-    evaluations += [
+    # evaluations += [ # TODO: Timothy debug, NOT sure: original version
+    evaluations = [
             (train_set, sm_unsafe, behavior_policy, 'train', 'softmax', shaped, shaping, shaping_scalar, 'unsafe', unsafety_prob, seed),
             ]
 
