@@ -46,7 +46,8 @@ with ce0 as
         ec.subject_id
         -- all echo heights are in inches
         , 2.54*AVG(height) as Height_Echo
-    from mimiciii.echo_data ec
+    from echo_data ec
+    -- from mimiciii.echo_data ec
     inner join mimiciii.icustays ie
         on ec.subject_id = ie.subject_id
     where height is not null
